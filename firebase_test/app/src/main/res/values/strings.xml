@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">firebase_test</string>
+    <string name="login">Đăng nhập</string>
+    <string name="email_input">"Nhập email "</string>
+    <string name="password_input">Nhập mật khẩu</string>
+    <string name="btn_Login">Đăng nhập</string>
+    <string name="register">Đăng kí</string>
+    <string name="confirmpassword">Xác nhận mật khẩu</string>
+    <string name="btn_register">Đăng kí</string>
+    <string name="LoginNow">Click to Login</string>
+    <string name="RegisterNow">Click to Register</string>
+    <string name="Logout">Đăng xuất</string>
+    <string name="WelcomeUser">Hello World!</string>
+    <string name="user_name">Tên người dùng</string>
+    <string name="mssv">Mã số sinh viên</string>
+    <string name="lop">Lớp</string>
+    <string name="quequan">Quê Quán</string>
+    <string name="searchText">Tìm kiếm</string>
+    <string name="txt_edit">Chỉnh sửa</string>
+    <string name="update_users">Update Users</string>
+    <string name="cap_nhat">Cập nhật</string>
+    <string name="delete">Xóa</string>
+    <string name="add">Thêm mới</string>
+    <string name="back">Quay lại</string>
+</resources>

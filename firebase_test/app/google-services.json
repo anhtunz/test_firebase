@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "705885590165",
+    "firebase_url": "https://fir-android-205cb-default-rtdb.firebaseio.com",
+    "project_id": "fir-android-205cb",
+    "storage_bucket": "fir-android-205cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705885590165:android:c073481d9227ad43ac419c",
+        "android_client_info": {
+          "package_name": "com.example.firebase_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbtILHwOkFmXeBX6bexObV_56fSTR2HVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp" >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/urlImage"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/cyan" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:text="@string/user_name"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/urlImage"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mssv"
+            android:text="@string/mssv"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/urlImage"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/username"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lop"
+            android:text="@string/lop"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/urlImage"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/mssv"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/quequan"
+            android:text="@string/quequan"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/urlImage"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/lop"
+            />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_below="@+id/quequan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_delete"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_edit"
+                android:textAllCaps="false"
+                android:layout_marginRight="5dp"
+                android:id="@+id/btn_edit" />
+            <Button
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:text="@string/delete"
+                android:textAllCaps="false"
+                android:layout_marginRight="5dp"
+                android:id="@+id/btn_delete" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
